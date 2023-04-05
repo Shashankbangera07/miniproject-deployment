@@ -2,7 +2,7 @@ from flask import Flask, jsonify, render_template, request
 import os
 import numpy
 import pickle
-from sklearn.ensemble import RandomForestRegressor
+#from sklearn.ensemble import RandomForestRegressor
 
 
 app = Flask(__name__)
